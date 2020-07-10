@@ -6,5 +6,15 @@
       propertyInclusionType="NORMAL"
       type="java.lang.String"
       xmlType="xs:string"/>
+    <include
+      path="ArchiveDate"
+      propertyInclusionType="NORMAL"
+      type="java.util.Date"
+      xmlType="xs:dateTime"/>
+    <include
+      path="AccountStatus"
+      propertyInclusionType="NORMAL"
+      type="typekey.AccountStatus"
+      xmlType="xs:string"/>
   </includes>
 </gx-model>
